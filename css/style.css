@@ -1,5 +1,6 @@
 body{
   color: #fff;
+  font-size: 16px;
   font-family: "Times New Roman", Serif, sans-serif;
 }
 #head{
@@ -8,6 +9,8 @@ body{
 }
 #creatives{
   margin: 15% 0 10% 0;
+}
+#creatives h1{
   font-size: 100px;
 }
 #make_hr{
@@ -34,9 +37,6 @@ body{
 #td2{  
   background-color: #f3f3f3;
 }
-#akita_name{
-  font-size: 40px;
-}
 #akita{
   padding: 4% 10%;
 }
@@ -58,17 +58,21 @@ body{
 #summer{
   color: #11749e;
 }
+#member1{
+  height: 400px;
+}
 #member_name{
-  margin: 90% 10% 0 10%;
+  margin: 350px 0 0 60px;
   background-color: #fff;
 }
 #member_name span{
   font-size: 22px;
 }
+
 #section7{
   padding: 3% 10%;
 }
-textarea{
+textarea, input{
   margin-top: 2%;
 }
 input, textarea{
@@ -80,6 +84,224 @@ input, textarea{
   margin-top: 2%;
   background-color: #11749e;
 }
+@media only screen and (max-width: 1500px){
+  #member_name span{
+    font-size: 20px;
+  }
+  #member_name{
+    margin: 350px 0 0 20px;
+  }
+}
+@media only screen and (max-width: 1200px){
+  #member_name span{
+    font-size: 18px;
+  }
+  #member_name{
+    margin: 350px 0 0 15px;
+  }
+}
+@media only screen and (max-width: 1024px){
+  #creatives h1{
+    font-size: 80px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  #test_img{
+    width: 100px;
+    height: 100px;
+  }
+  #member_name{
+    margin: 350px 0 0 10px;
+  }
+}
+@media only screen and (max-width: 991px){
+  #mob_image{
+    padding: 0 0 5% 30%;
+  }
+  #section7 h1{
+    font-size: 30px;
+  }
+  #member1{
+    width: 400px;
+    margin-top: 50px;
+    padding-top: 308px;
+  }
+  #member_name{
+    margin: 50px 0 0 5px;
+  }
+  #member_name span{
+  font-size: 18px;
+  }
+  form{
+    margin-left: 40%;
+  }
+  textarea{
+    width: 228px;
+  }
+}
+@media only screen and (max-width: 700px){
+  #creatives h1{
+    font-size: 70px;
+  }
+  #section7 h1{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  #test_img{
+    width: 90px;
+    height: 90px;
+  }
+  #member_name{
+    margin-top: 15%;
+  }
+  #member_name span{
+  font-size: 16px;
+  }
+  #snow{
+    width: 200px;
+    height: 220px;
+  }
+}
+@media only screen and (max-width: 600px){
+  #creatives h1{
+    font-size: 50px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  #section7 h1{
+    font-size: 20px;
+  }
+  #akita_name h1 {
+    font-size: 20px;
+  }
+  h3, h4{
+    font-size: 16px;
+  }
+  p{
+    font-size: 16px;
+  }
+  #test_img{
+    width: 80px;
+    height: 80px;
+  }
+  #member_name{
+    margin-top: 15%;
+  }
+  #member_name span{
+  font-size: 16px;
+  }
+  #snow{
+    width: 160px;
+    height: 180px;
+  }
+  form{
+    margin-left: 30%;
+  }
+}
+@media only screen and (max-width: 400px){
+  #creatives h1{
+    font-size: 40px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  #section7 h1{
+    font-size: 18px;
+  }
+  #akita_name h1 {
+    font-size: 18px;
+  }
+  body, h3, h4, p{
+    font-size: 14px;
+  }
+  #test_img{
+    width: 70px;
+    height: 70px;
+  }
+  #member_name{
+    margin-top: 15%;
+  }
+  #member_name span{
+    font-size: 14px;
+  }
+  #snow{
+    width: 120px;
+    height: 140px;
+  }
+  form{
+    margin-left: 20%;
+  }
+  textarea{
+    width: 203px;
+  }
+}
+@media only screen and (max-width: 300px){
+  h1{
+    font-size: 20px;
+  }
+  #section7 h1{
+    font-size: 15px;
+  }
+  #akita_name h1 {
+    font-size: 16px;
+  }
+ body, h3, h4, p{
+    font-size: 12px;
+  }
+  #test_img{
+    width: 50px;
+    height: 50px;
+  }
+  #member_name{
+    margin-top: 15%;
+  } 
+  #member_name span{
+    font-size: 12px;
+  }
+  #snow{
+    width: 80px;
+    height: 100px;
+  }
+  form{
+    margin-left: 10%;
+  }
+  textarea{
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 200px){
+  h1{
+    font-size: 15px;
+  }
+  #akita_name h1 {
+    font-size: 14px;
+  }
+  body, h3, h4, p{
+    font-size: 10px;
+  }
+  #test_img{
+    width: 30px;
+    height: 30px;
+  }
+  #member_name{
+    margin-top: 15%;
+  }
+  #snow{
+    width: 40px;
+    height: 60px;
+  }form{
+    margin-left: 5%;
+  }
+  textarea{
+    width: 155px;
+  }
+}
+
+
 #googleMap{
   height:250px;
   background:#DDD;
@@ -98,22 +320,6 @@ footer{
   margin-top: 4%;
   padding-bottom: 4%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -139,15 +345,6 @@ footer{
   .topnav a.icon {
     float: right;
     display: block;
-  }
-  #creatives{
-    font-size: 20px;
-  }
-  p{
-    font-size: 8px;
-  }
-  #akita_name{
-    font-size: 10px;
   }
 }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
